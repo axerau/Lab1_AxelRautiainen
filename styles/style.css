@@ -1,0 +1,26 @@
+body {
+    background-image: url("../assets/backdrop.jpg");
+    height: 2500px;
+}
+
+.header {
+    background-color: darkslateblue;
+    color: aliceblue;
+    text-align: center;
+    font-family: Tahoma;
+    /* position: fixed; */
+    margin: -21px -8px 0 -8px;
+    padding: 2px 0 10px 0;
+}
+
+.link {
+    color: aliceblue;
+    text-align: center;
+    font-family: Tahoma;
+    font-size: larger;
+}
+.page_title {
+    color: aliceblue;
+    text-align: center;
+    font-family: Tahoma;
+}
