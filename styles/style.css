@@ -17,10 +17,55 @@ body {
     color: aliceblue;
     text-align: center;
     font-family: Tahoma;
-    font-size: larger;
+    font-size: 24px;
+    text-align: justify;
+    text-decoration: none;
 }
 .page_title {
     color: aliceblue;
     text-align: center;
-    font-family: Tahoma;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size: 48px;
+}
+
+.subsection_title {
+    color: aliceblue;
+    text-align: left;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 40px;
+}
+
+.company_name {
+    color: aliceblue;
+    text-align: left;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size: 24px;
+}
+
+.position {
+    color: aliceblue;
+    text-align: left;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size: 18px;
+    margin: -20px 0 0 0;
+}
+
+.duration {
+    color: aliceblue;
+    text-align: left;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size: 14px;
+}
+
+.job_description {
+    color: aliceblue;
+    text-align: left;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size: 16px;
+}
+
+.embedded_link {
+    color: inherit;
+    font-family: inherit;
+    font-size: inherit;
 }
