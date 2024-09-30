@@ -1,26 +1,57 @@
 body {
-    background-image: url("../assets/backdrop.jpg");
-    height: 2500px;
+    background-image: url("../assets/backdrop.gif");
+    background-size: cover;
+    backdrop-filter: blur(10px) brightness(20%);
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
 }
 
-.header {
-    background-color: darkslateblue;
+header {
+    background-color: rgb(225, 40, 148, 0.1);
     color: aliceblue;
     text-align: center;
     font-family: Tahoma;
-    /* position: fixed; */
-    margin: -21px -8px 0 -8px;
-    padding: 2px 0 10px 0;
+    border-style: solid;
+    border-width: thin;
+    border-color: rgb(221, 0, 255);
+}
+
+.header_page_links {
+    display: flex;
+}
+
+footer {
+    background-color: rgb(225, 40, 148, 0.1);
+    color: aliceblue;
+    text-align: center;
+    font-family: Tahoma;
+    border-style: solid;
+    border-width: thin;
+    border-color: rgb(221, 0, 255);
+    position: relative;
+    bottom: 0;
+}
+
+.footer_links {
+    display: flex;
+    align-items: center;
 }
 
 .link {
+    display: block;
+    flex: 1;
     color: aliceblue;
-    text-align: center;
+    /*text-align: center;*/
     font-family: Tahoma;
     font-size: 24px;
-    text-align: justify;
     text-decoration: none;
 }
+
+a:hover {
+    color: rgb(255, 109, 163);
+}
+
 .page_title {
     color: aliceblue;
     text-align: center;
@@ -28,15 +59,30 @@ body {
     font-size: 48px;
 }
 
+.subsection {
+    margin: 0 10px 0 10px;
+}
+
 .subsection_title {
-    color: aliceblue;
+    color: yellow;
     text-align: left;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
     font-size: 40px;
 }
 
-.company_name {
+.homepage_container {
+    margin: 0 10px 0 10px;
+}
+
+.homepage_body_text {
     color: aliceblue;
+    text-align: left;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size: 20px;
+}
+
+.company_name {
+    color: rgb(255, 109, 163) ;
     text-align: left;
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
     font-size: 24px;
@@ -68,4 +114,11 @@ body {
     color: inherit;
     font-family: inherit;
     font-size: inherit;
+}
+
+.course_list {
+    color: aliceblue;
+    text-align: left;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size: 16px;
 }
