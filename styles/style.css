@@ -21,6 +21,37 @@ header {
     display: flex;
 }
 
+
+.image_gallery {
+    display: flex;
+    align-items: center;
+}
+
+.homepage_image {
+    flex: 1;
+    padding: 10px;
+    margin: 10px;
+}
+
+.homepage_image img {
+    width: 100%;
+    height: auto;
+}
+
+.homepage_image:hover {
+    border-style: solid;
+    border-width: thin;
+    border-color: yellow;
+}
+
+.image_text {
+    padding: 15px;
+    text-align: center;
+    color: aliceblue;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size: 20px;
+}
+
 footer {
     background-color: rgb(225, 40, 148, 0.1);
     color: aliceblue;
@@ -38,6 +69,20 @@ footer {
     align-items: center;
 }
 
+.copyright {
+    font-family: Cambria, Cochin, Georgia, Times, Times New Roman, serif;
+    font-size: 12px;
+    color: rgb(255, 109, 163);
+    text-align: center;
+}
+
+.copyright a {
+    font-family: Cambria, Cochin, Georgia, Times, Times New Roman, serif;
+    font-size: 12px;
+    color: rgb(255, 109, 163);
+    text-align: center;
+}
+
 .link {
     display: block;
     flex: 1;
@@ -46,6 +91,7 @@ footer {
     font-family: Tahoma;
     font-size: 24px;
     text-decoration: none;
+    padding: 5px;
 }
 
 a:hover {
@@ -67,7 +113,7 @@ a:hover {
     color: yellow;
     text-align: left;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
-    font-size: 40px;
+    font-size: 48px;
 }
 
 .homepage_container {
@@ -82,17 +128,17 @@ a:hover {
 }
 
 .company_name {
-    color: rgb(255, 109, 163) ;
+    color: rgb(255, 109, 163);
     text-align: left;
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
     font-size: 24px;
 }
 
-.position {
+.position, .additional_trivia {
     color: aliceblue;
     text-align: left;
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
-    font-size: 18px;
+    font-size: 20px;
     margin: -20px 0 0 0;
 }
 
@@ -121,4 +167,102 @@ a:hover {
     text-align: left;
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
     font-size: 16px;
+}
+
+.form_container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.input_label {
+    flex: 1;
+    font-size: 40px;
+    color: yellow;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    text-align: center;
+}
+
+input, textarea {
+    flex: 1;
+    font-size: 20px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    padding: 10px;
+    width: 800px;
+    border-style: solid;
+    border-width: 4px;
+    border-color: rgb(255, 109, 163);
+    resize: none;
+}
+
+span {
+    color: cyan;
+    font-family: Cambria, Cochin, Georgia, Times, Times New Roman, serif;
+    font-size: 40px;
+}
+
+.trivia_item {
+    color: aliceblue;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 30px;
+}
+
+audio {
+    display: inline;
+    vertical-align: middle;
+}
+
+table {
+    width: 100%;
+    border: solid;
+    border-width: 2px;
+    border-color: yellow;
+    color: aliceblue;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size: 32px;
+    text-align: center;
+    padding: 10px;
+}
+
+tr:nth-child(odd) {
+    background-color: rgb(255, 109, 163, 0.2);
+}
+
+tr:nth-child(even) {
+    background-color: rgb(255, 109, 163, 0.1);
+}
+
+td {
+    width: 50%;
+    padding: 10px;
+}
+
+.top_five_list {
+    display: flex;
+}
+
+.list_title {
+    flex: 1;
+    color: cyan;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 36px;
+}
+
+ol {
+    flex: 1;
+    color: aliceblue;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size: 30px;
+}
+
+@media (max-width: 425px) {
+    .link {
+        font-size: 20px;
+    }
+
+    textarea {
+        height: 600px !important;
+    }
+
+
 }
